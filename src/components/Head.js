@@ -56,7 +56,7 @@ const Head = () => {
     dispatch(toggleMenu()); // an action will dispatch when this fucntion is called
   };
   return (
-    <div className="grid grid-flow-col p-5 m-2 text-center shadow-lg">
+    <div className="grid grid-flow-col p-3 m-2 text-center shadow-lg">
       <div className="flex col-span-1">
         <img
           onClick={() => toggleMenuHandler()} // an action will dispatch when this is clicked
